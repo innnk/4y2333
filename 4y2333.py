@@ -93,7 +93,7 @@ with open('data/'+strToday +'.csv', 'rb') as f:
     # 设置附件的MIME和文件名，这里是png类型:
     mime = MIMEBase('data', 'csv', filename=strToday + '.csv')
     # 加上必要的头信息:
-    mime.add_header('Content-Disposition', 'attachment', filename=strToday + '-北京分部-尹凯''.csv')
+    mime.add_header('Content-Disposition', 'attachment', filename=strToday + '-尹凯''.csv')
     mime.add_header('Content-ID', '<0>')
     mime.add_header('X-Attachment-Id', '0')
     # 把附件的内容读进来:

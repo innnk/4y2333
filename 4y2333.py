@@ -21,6 +21,8 @@ def _writeToEmail(convertedContent):
         res += temp
     res += '<td>每日总结</td><td colspan="3">' + conclusionToday +'</td></tr></tbody></table>'
     return res
+	
+	
 def _writeToCsv(convertedContent):
     if os.path.exists('data/'+strToday +'.csv'): 
         os.remove('data/'+strToday +'.csv')
@@ -32,6 +34,8 @@ def _writeToCsv(convertedContent):
         for info in convertedContent:
             spamwriter.writerow(info)
         spamwriter.writerow(("每日总结", conclusionToday ,"",""))
+		
+		
 def _contentHelper(dirpath = 'input/source.txt'):
     with open(dirpath, 'r') as f:
         lines = f.readlines()
@@ -51,7 +55,8 @@ def _contentHelper(dirpath = 'input/source.txt'):
         else: info.insert(0,strToday)
         res.append(info)
     return res
-# content = [['公司', '编写报告', '完成今日编写计划'], ['公司', '内部oa系统使用培训', '完成oa系统培训'], ['公司', '编写报告','']]
+	
+	
 def _conclusionHelper(dirpath = 'input/conclusion.txt'):
     with open(dirpath, 'r') as f:
         lines = f.readlines()
@@ -60,13 +65,8 @@ def _conclusionHelper(dirpath = 'input/conclusion.txt'):
     return conclusionToday
 conclusionToday = _conclusionHelper()
 
-#from_addr = 'yink@relialab.com'
-#password = 'FuckU0'
-#to_addr = 'beihangink@sina.com'
-
 from_addr = 'beihangink@sina.com'
 password = ''
-#to_addr = 'yink_bise@163.com'
 to_addr = 'beijing4y@relialab.com'
 # smtp_server = raw_input('SMTP server: ')
 

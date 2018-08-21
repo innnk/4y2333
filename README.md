@@ -6,5 +6,5 @@
 ## What's 4y?
 4y = 4 yes,It's a Methods of Project Management.
 
-##What's 4y2333?s
+## What's 4y2333?
 A tool generate 4y conclusion and send it sto target emailbox by smtp automaticlly.

@@ -8,3 +8,9 @@
 
 ## What's 4y2333?
 A tool generate 4y conclusion and send it to target email-box(by smtp) automaticlly.
+
+## Todo list:
+
+- [ ] learn from other's conclusion and 4y2333 will write conclusion for me.
+- [ ] generate conclusion with key word
+- [x] send table with html

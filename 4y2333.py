@@ -66,7 +66,7 @@ def _conclusionHelper(dirpath = 'input/conclusion.txt'):
 conclusionToday = _conclusionHelper()
 
 from_addr = 'beihangink@sina.com'
-password = ''
+password = 'yk1989ys2b789'
 to_addr = 'beijing4y@relialab.com'
 # smtp_server = raw_input('SMTP server: ')
 

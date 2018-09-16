@@ -16,3 +16,5 @@ A tool generate 4y conclusion and send it to target email-box(by smtp) automatic
 - [x] send table with html
 
 ## License
+
+Licensed under theMIT License](https://github.com/innnk/4y2333/blob/master/LICENSE) .

@@ -17,4 +17,4 @@ A tool generate 4y conclusion and send it to target email-box(by smtp) automatic
 
 ## License
 
-Licensed under theMIT License](https://github.com/innnk/4y2333/blob/master/LICENSE) .
+Licensed under the [MIT License](https://github.com/innnk/4y2333/blob/master/LICENSE) .
